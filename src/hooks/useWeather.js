@@ -1,7 +1,7 @@
 // src/hooks/useWeather.js
 import { useState, useEffect, useCallback } from "react";
 
-const API_KEY = import.meta.env.VITE_WEATHER_API_KEY; // In a real app, this would be in an environment variable
+const API_KEY = import.meta.env.VITE_WEATHER_API_KEY;
 const BASE_URL = "https://api.openweathermap.org/data/2.5/weather";
 
 export default function useWeather(city, unit) {
