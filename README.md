@@ -15,7 +15,7 @@ cd weather-app
 pnpm install
 ```
 
-3. Rode o projeto:
+3. Run the project:
 
 ```bash
 pnpm dev
